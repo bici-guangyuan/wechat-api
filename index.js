@@ -1,4 +1,4 @@
-var API = require('./lib/api_common');
+﻿var API = require('./lib/api_common');
 // 菜单接口
 API.mixin(require('./lib/api_menu'));
 // 分组管理
@@ -11,7 +11,7 @@ API.mixin(require('./lib/api_qrcode'));
 API.mixin(require('./lib/api_media'));
 // 永久素材管理接口
 API.mixin(require('./lib/api_material'));
-// 客服消息
+// 客服消息  
 API.mixin(require('./lib/api_message'));
 // 模板消息
 API.mixin(require('./lib/api_template'));
